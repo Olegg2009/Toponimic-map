@@ -56,7 +56,7 @@
 
     position: absolute;
 
-    font-size: 3vh  ;
+    font-size: 3vh;
     text-decoration: none;
     color:rgb(0, 0, 0);
 }
@@ -76,6 +76,20 @@
 }
 .derevnya:hover{
     font-size: 2.8vh;
+}
+.river{
+    transition-property: font-size;
+    transition-duration: 500ms;
+    transition-delay: 150ms;
+
+    position: absolute;
+
+    font-size: 2vh;
+    text-decoration: none;
+    color: rgb(32, 125, 174);
+}
+.river:hover{
+    font-size: 2.3vh;
 }
 /* Муниципальные образования */
 #maintown {
@@ -186,4 +200,60 @@
 #konyaevo {
     margin-top: 150vh;
     margin-right: 57vw;
+}
+/*Реки*/
+#r_riverblack {
+    margin-top: 70vh;
+    margin-right: 9vw;
+    transform: rotate(45deg);
+}
+#urik {
+    margin-top: 105vh;
+    margin-right: 28vw;
+    transform: rotate(-80deg);
+}
+#urik1 {
+    margin-top: 154vh;
+    margin-right: 34.5vw;
+    transform: rotate(-80deg);
+}
+#klyazma {
+    margin-top: 102vh;
+    margin-right: 46vw;
+}
+#klyazma:hover {
+    font-size: 2vh;
+}
+#klyazma1 {
+    margin-top: 2vh;
+    margin-left: 72vw;
+    transform: rotate(-18deg)
+}
+#klyazma1:hover {
+    font-size: 2vh;
+}
+#sodomovka {
+    margin-top: 127vh;
+    margin-right: 44.5vw;
+    transform: rotate(-80deg);
+}
+#usherka {
+    margin-top: 105vh;
+    margin-left: 38vw;
+    transform: rotate(9deg);
+}
+#sharksha {
+    margin-top: 129vh;
+    margin-left: 51vw;
+    transform: rotate(-41deg);
+}
+#usher {
+    margin-top: 55vh;
+    margin-left: 56.5vw;
+    transform: rotate(-99deg);
+}
+#suhorika {
+    margin-top: 150vh;
+    margin-left: 4vw;
+    transform: rotate(9deg);
 }

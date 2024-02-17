@@ -43,6 +43,7 @@ a {
 .images {
     margin-right: 10%;
     padding: 5%;
+    padding-left: 0;
     background-color: white;
     
     font-family: "Overpass", sans-serif;
@@ -58,9 +59,9 @@ a {
     color: black;
 }
 .image {
-    width: 11vw;
+    width: 14vw;
     @media (max-width: 600px) {
-        width: 11vh;
+        width: 14vh;
     } 
     text-align: center;
     padding: 5%;
@@ -69,8 +70,8 @@ a {
 }
 
 .photo {
-    width: 10vw;
+    width: 13vw;
     @media (max-width: 800px) {
-        width: 10vh;
+        width: 13vh;
     } 
 }
