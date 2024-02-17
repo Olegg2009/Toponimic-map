@@ -49,26 +49,21 @@
 .tomainmap:hover {
     font-size: 3.3vh;
 }
-/* Муниципальные образования */
-.maintown {
+.derevnyaL {
     transition-property: font-size;
     transition-duration: 500ms;
     transition-delay: 150ms;
 
     position: absolute;
 
-    font-size: 3vh;
-    margin-top: 85vh;
-    margin-left: 3vw;
+    font-size: 3vh  ;
     text-decoration: none;
     color:rgb(0, 0, 0);
 }
-.maintown:hover{
+.derevnyaL:hover{
     font-size: 3.3vh;
 }
-
-.mo_vyatkino {
-
+.derevnya {
     transition-property: font-size;
     transition-duration: 500ms;
     transition-delay: 150ms;
@@ -76,127 +71,119 @@
     position: absolute;
 
     font-size: 2.5vh;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.derevnya:hover{
+    font-size: 2.8vh;
+}
+/* Муниципальные образования */
+#maintown {
+    margin-top: 85vh;
+    margin-left: 3vw;
+}
+
+#mo_vyatkino {
     margin-top: 47vh;
     margin-right: 37vw;
-    text-decoration: none;
-    color:rgb(0, 0, 0);
-
-}
-.mo_vyatkino:hover {
-    font-size: 2.8vh;
 }
 
-.mo_golovino {
-
-    transition-property: font-size;
-    transition-duration: 500ms;
-    transition-delay: 150ms;
-
-    position: absolute;
-
-    font-size: 2.5vh;
+#mo_golovino {
     margin-top: 89vh;
     margin-right: 43vw;
-    text-decoration: none;
-    color:rgb(0, 0, 0);
-
-}
-.mo_golovino:hover {
-    font-size: 2.8vh;
 }
 
-.mo_lavrovo {
-
-    transition-property: font-size;
-    transition-duration: 500ms;
-    transition-delay: 150ms;
-
-    position: absolute;
-
-    font-size: 2.5vh;
+#mo_lavrovo {
     margin-top: 72vh;
     margin-right: 2vw;
-    text-decoration: none;
-    color:rgb(0, 0, 0);
-
-}
-.mo_lavrovo:hover {
-    font-size: 2.8vh;
 }
 
-.mo_moshok {
-
-    transition-property: font-size;
-    transition-duration: 500ms;
-    transition-delay: 150ms;
-
-    position: absolute;
-
-    font-size: 2.5vh;
+#mo_moshok {
     margin-top: 145vh;
     margin-left: 40vw;
-    text-decoration: none;
-    color:rgb(0, 0, 0);
-
-}
-.mo_moshok:hover {
-    font-size: 2.8vh;
 }
 
-.mo_muromcevo {
-
-    transition-property: font-size;
-    transition-duration: 500ms;
-    transition-delay: 150ms;
-
-    position: absolute;
-
-    font-size: 2.5vh;
+#mo_muromcevo {
     margin-top: 102vh;
     margin-left: 7vw;
-    text-decoration: none;
-    color:rgb(0, 0, 0);
-
-}
-.mo_muromcevo:hover {
-    font-size: 2.8vh;
 }
 
-.mo_andreevo {
-
-    transition-property: font-size;
-    transition-duration: 500ms;
-    transition-delay: 150ms;
-
-    position: absolute;
-
-    font-size: 2.5vh;
+#mo_andreevo {
     margin-top: 87vh;
     margin-left: 32.5vw;
-    text-decoration: none;
-    color:rgb(0, 0, 0);
-
-}
-.mo_andreevo:hover {
-    font-size: 2.8vh;
 }
 
 /* Деревни */
 /* МО Вяткинское */
-.vyatkino {
-    transition-property: font-size;
-    transition-duration: 500ms;
-    transition-delay: 150ms;
-
-    position: absolute;
-
+#vyatkino {
     margin-top: 84vh;
     margin-right: 1vw;
-
-    font-size: 3vh;
-    text-decoration: none;
-    color:rgb(0, 0, 0);
 }
-.vyatkino:hover {
-    font-size: 3.3vh;
+#pogrebishi {
+    margin-top: 93vh;
+    margin-right: 5vw;
+}
+#proskurinskaya {
+    margin-top: 115vh;
+    margin-left: 8vw;
+}
+#pavlovskaya {
+    margin-top: 122vh;
+    margin-left: 2vw;
+}
+#baraki {
+    margin-top: 106vh;
+    margin-left: 14.5vw;
+}
+#baygushi {
+    margin-top: 62vh;
+    margin-left: 1vh;
+}
+#novopetrovo {
+    margin-top: 115vh;
+    margin-left: 59vw;
+}
+#sokolovo {
+    margin-top: 72vh;
+    margin-left: 60vw;
+}
+#stanki {
+    margin-top: 93vh;
+    margin-left: 58vw;
+}
+#novokarpovka {
+    margin-top: 37vh;
+    margin-left: 63vw;
+}
+#vysokovo {
+    margin-top: 118vh;
+    margin-right: 14vw;
+}
+#perevedenovo {
+    margin-top: 128vh;
+    margin-right: 6vw;
+}
+#ladoga {
+    margin-top: 79vh;
+    margin-right: 17vw;
+}
+#ulybyshevo {
+    margin-top: 123vh;
+    margin-right: 33vw;
+}
+#d_ulybyshevo {
+    margin-top: 142vh;
+    margin-right: 43vw;
+}
+#gridino {
+    margin-top: 126vh;
+    margin-right: 57vw;
+}
+#fryazino {
+    margin-top: 115vh;
+    margin-right: 62vw;
+}
+#konyaevo {
+    margin-top: 150vh;
+    margin-right: 57vw;
 }
