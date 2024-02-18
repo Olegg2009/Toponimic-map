@@ -68,7 +68,12 @@ a {
     margin-bottom: 20%;
     background-color: rgb(220, 220, 220);
 }
-
+.rb {
+    width: 20vw;
+    @media (max-width: 600px) {
+        width: 20vh;
+    } 
+}
 .photo {
     width: 13vw;
     @media (max-width: 800px) {

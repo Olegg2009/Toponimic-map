@@ -32,6 +32,12 @@
     width: 80vw;    
     margin-top: 97vh;
 }
+.golovino_map {
+    vertical-align:middle; 
+    position: absolute;
+    width: 50vw;    
+    margin-top: 97vh;
+}
 .tomainmap{
     position: absolute;
 
