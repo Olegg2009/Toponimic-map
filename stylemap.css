@@ -25,6 +25,9 @@
     position: absolute;
     width: 63vw;    
     margin-top: 98vh;
+    @media (max-width: 600px) {
+        width: 63vh;
+    } 
 }
 .vyatkino_map {
     vertical-align:middle; 
@@ -91,6 +94,9 @@
     position: absolute;
 
     font-size: 2vh;
+    @media (max-width: 600px) {
+        font-size: 0.2vh;
+    } 
     text-decoration: none;
     color: rgb(32, 125, 174);
 }
@@ -101,6 +107,10 @@
 #maintown {
     margin-top: 85vh;
     margin-left: 3vw;
+    @media (max-width: 600px) {
+        margin-top: 85vh;
+        margin-left: 3vw;
+    } 
 }
 
 #mo_vyatkino {

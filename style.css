@@ -10,8 +10,14 @@ main{
     to { opacity: 1; }
   }
 a {
+    transition-property: color, font-size;
+    transition-duration: 500ms;
+    transition-delay: 150ms;
     text-decoration: none;
-    color: rgb(49, 66, 255);
+    color: rgb(27, 138, 200);
+}
+a:hover {
+    color: rgb(0, 21, 255);
 }
 .back {
     font-size: 1.2vw;
