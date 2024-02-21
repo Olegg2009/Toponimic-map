@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="app.js"></script>
     <link rel="stylesheet" href="stylemap.css">
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <title>Топонимическая карта Судогодского района</title>
@@ -11,6 +10,9 @@
 <body>
     <div class="map">
         <img class="vyatkino_map" src="images/MOV.png" alt="Что-то пошло не так">
+        <img id="vyatsym" class="symbols" src="images/uslovnyeoboznacheniyaforMO.png" alt="">
+        <button onclick="showit()" class="showsym" id="vyatshowsym">Условные обозначения</button>
+
         <a href="MOV/vyatkino.html" id="vyatkino" class="derevnyaL">Вяткино</a>
         <a href="MOV/pogrebishi.html" id="pogrebishi" class="derevnya">Погребищи</a>
         <a href="MOV/proskurinskayanpavlovskaya.html" id="proskurinskaya" class="derevnya">Проскуринская</a>
@@ -41,8 +43,11 @@
         <a href="MOV/usher.html" id="usher" class="river">р. Ущер</a>
         <a href="noinfo.html" id="suhorika" class="river">р. Сухорика</a>
 
-        <a href="map.html" class="tomainmap">Вернуться на карту</a>
+        <form action="map.html" class="tomainmap">
+            <button>Вернуться на карту</button>
+        </form>
         </img>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>

@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="app.js"></script>
     <link rel="stylesheet" href="stylemap.css">
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <title>Топонимическая карта Судогодского района</title>
@@ -11,10 +10,26 @@
 <body>
     <div class="map">
         <img class="golovino_map" src="images/MOG.png" alt="Что-то пошло не так">
+        <img id="golsym" class="symbols" src="images/uslovnyeoboznacheniyaforMO.png" alt="">
+        <button onclick="showit()" class="showsym" id="golshowsym">Условные обозначения</button>
+
         <a href="MOG/golovino.html" id="golovino" class="derevnyaL">Головино</a>
-        
-        <a href="map.html" class="tomainmap">Вернуться на карту</a>
+        <a href="noinfo.html" id="ilyino" class="derevnya">Ильино</a>
+        <a href="MOG/soyma.html" id="soyma" class="derevnya">Сойма</a>
+        <a href="noinfo.html" id="poslukdominval" class="derevnya">пос. Лукинского Дома Инвалидов</a>
+        <a href="noinfo.html" id="ovsyannikovo" class="derevnya">Овсянниково</a>
+        <a href="noinfo.html" id="kamenec" class="derevnya">Каменец</a>
+        <a href="noinfo.html" id="efimovskaya" class="derevnya">Ефимовская</a>
+        <a href="noinfo.html" id="konyaevog" class="derevnya">Коняево</a>
+        <a href="noinfo.html" id="zharki" class="derevnya">Жарки</a>
+        <a href="noinfo.html" id="ovcyno" class="derevnya">Овцыно</a>
+        <a href="noinfo.html" id="hohlachi" class="derevnya">Хохлачи</a>
+
+        <form action="map.html" class="tomainmap">
+            <button>Вернуться на карту</button>
+        </form>
         </img>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>

@@ -41,22 +41,82 @@
     width: 50vw;    
     margin-top: 97vh;
 }
-.tomainmap{
+.symbols {
+    position: absolute;
+}
+
+#sym {
+    width: 50vw;
+    margin-top: 169vh;
+    margin-right: 48vw;
+}
+#vyatsym {
+    width: 40vw;
+    margin-top: 21vh;
+    margin-right: 59vw;
+}
+#golsym {
+    width: 50vw;
+    margin-top: 169vh;
+    margin-left: 48vw;
+}
+
+button {
     position: absolute;
 
-    transition-property: font-size;
+    border-style: none;
+
+    transition-property: font-size, width, height, opacity;
     transition-duration: 500ms;
     transition-delay: 150ms;
 
-    text-decoration: none;
-    color: rgb(49, 66, 255);
-    font-size: 3vh;
+    color: black;
+    background-color: rgb(220, 220, 220);
+    border-radius: 1vh;
+    width: 14vw;
+    height: 5vh;
+    padding: 1.1vh;
+    opacity: 0.4;
 
-    margin-top: 180vh;
-    margin-right: 80vw;
+    font-family: "Overpass", sans-serif;
+    font-size: 2vh;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
 }
-.tomainmap:hover {
-    font-size: 3.3vh;
+button:hover{
+    opacity: 1;
+    width: 14.4vw;
+    height: 5.4vh;
+    font-size:2.3vh;
+}
+@keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+@keyframes hide {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+#showsym{
+    margin-top: 189vh;
+    margin-right: 85vw;
+}
+#vyatshowsym{
+    margin-top: 5vh;
+    margin-right: 85vw;
+}
+#golshowsym{
+    margin-top: 189vh;
+    margin-left: 85vw;
+}
+
+.tomainmap{
+    position: absolute;
+
+    margin-top: 185vh;
+    margin-right: 99vw;
 }
 .derevnyaL {
     transition-property: font-size;
@@ -143,8 +203,8 @@
     margin-left: 32.5vw;
 }
 
-/* Деревни */
 /* МО Вяткинское */
+/* Деревни */
 #vyatkino {
     margin-top: 84vh;
     margin-right: 1vw;
@@ -272,4 +332,50 @@
     margin-top: 150vh;
     margin-left: 4vw;
     transform: rotate(9deg);
+}
+/* МО Головинское */
+/* Деревни */
+#golovino {
+    margin-top: 63vh;
+    margin-right: 28vw;
+}
+#ilyino {
+    margin-top: 94vh;
+    margin-left: 6.6vw;
+}
+#soyma{
+    margin-top: 45vh;
+    margin-left: 32.6vw;
+}
+#poslukdominval{
+    margin-top: 22vh;
+    margin-right: 34vh
+}
+#kamenec{
+    margin-top: 79vh;
+    margin-right: 29.5vw;
+}
+#ovsyannikovo {
+    margin-top: 53vh;
+    margin-right: 18vw;    
+}
+#efimovskaya {
+    margin-top: 36vh;
+    margin-right: 4vw;
+}
+#konyaevog {
+    margin-top: 102vh;
+    margin-right: 8vw;    
+}
+#zharki {
+    margin-top: 117vh;
+    margin-left: 13.5vw;
+}
+#ovcyno {
+    margin-top: 24vh;
+    margin-left: 41vw;
+}
+#hohlachi {
+    margin-top: 30vh;
+    margin-left: 35vw;
 }
