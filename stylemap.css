@@ -367,6 +367,10 @@ button:hover{
 }
 #efimovskaya {
     margin-top: 36vh;
+    margin-left: 2vw;
+}
+#verigino {
+    margin-top: 52vh;
     margin-right: 4vw;
 }
 #konyaevog {
@@ -385,9 +389,112 @@ button:hover{
     margin-top: 30vh;
     margin-left: 35vw;
 }
+/* Реки */
+#soymar {
+    margin-top: 47vh;
+    margin-right: 12vw;
+    transform: rotate(-9deg);
+}
+#soymar1 {
+    margin-top: 36vh;
+    margin-left: 40vw;
+    transform: rotate(-20deg);
+}
+#vysokusha {
+    margin-top: 104vh;
+    margin-left: 0vw;
+    transform: rotate(-34deg);    
+}
+#golurik {
+    margin-top: 40vh;
+    margin-right: 37vw;
+    transform: rotate(93deg);    
+}
+#pol {
+    margin-top: 100vh;
+    margin-right: 30vw;
+    transform: rotate(88deg);        
+}
+#petrishevka {
+    margin-top: 113vh;
+    margin-right: 25vw;
+    transform: rotate(-14deg);
+}
+#voyninga {
+    margin-top: 36vh;
+    margin-left: 47vw;
+    transform: rotate(80deg);
+}
+#kamenka {
+    margin-top:68vh;
+    margin-left: 10vw;
+    transform: rotate(12deg);    
+}
+#osinovka {
+    margin-top: 120vh;
+    margin-left: 20vw;
+    transform: rotate(-12deg);
+}
+#osinovka1 {
+    margin-top: 90vh;
+    margin-left: 30vw;
+    transform: rotate(-80deg);
+}
+#vanchuga {
+    margin-top: 90vh;
+    margin-left: 20vw;
+    transform: rotate(-60deg);
+}
+#uzhba {
+    margin-top: 135vh;
+    margin-right: 42vw;
+    transform: rotate(96deg);    
+}
+#golsuhorika {
+    margin-top: 35vh;
+    margin-right: 8vw;
+    transform: rotate(80deg);        
+}
+#solodyanka {
+    margin-top: 38vh;
+    margin-right: 20vw;
+    transform: rotate(100deg);            
+}
 /* МО Муромцевское */
 /* Деревни */
 #muromcevo {
     margin-top: 50vh;
     margin-left: 8vw; 
+}
+#afonino {
+    margin-top: 55vh;
+    margin-right: 15vw; 
+}
+#gorki {
+    margin-top: 67vh;
+    margin-left: 8vw; 
+}
+#beg {
+    margin-top: 47vh;
+    margin-right: 8vw; 
+}
+#stepanovo {
+    margin-top: 76vh;
+    margin-left: 4vw; 
+}
+#vartemovka {
+    margin-top: 120vh;
+    margin-right: 20vw; 
+}
+#peredel {
+    margin-top: 72vh;
+    margin-left: 27vw; 
+}
+#zayastrebye {
+    margin-top: 116vh;
+    margin-left: 14vw; 
+}
+#travinino {
+    margin-top: 104vh;
+    margin-left: 6vw; 
 }
