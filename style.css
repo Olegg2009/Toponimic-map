@@ -82,6 +82,18 @@ a:hover {
         width: 20vh;
     } 
 }
+#usher {
+    width: 30vw;
+    @media (max-width: 600px) {
+        width: 30vh;
+    } 
+}
+#soyma {
+    width: 70vw;
+    @media (max-width: 600px) {
+        width: 70vh;
+    } 
+}
 .photo {
     width: 15vw;
     @media (max-width: 800px) {
