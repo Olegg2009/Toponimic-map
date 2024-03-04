@@ -94,6 +94,10 @@ a:hover {
         width: 70vh;
     } 
 }
+#suhorika {
+    font-weight: 750;
+    font-size: 1.1  vw;
+}
 .photo {
     width: 15vw;
     @media (max-width: 800px) {
