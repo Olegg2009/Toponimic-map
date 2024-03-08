@@ -53,6 +53,12 @@
     width: 40vw;    
     margin-top: 97vh;
 }
+.andreevo_map {
+    vertical-align:middle; 
+    position: absolute;
+    width: 30vw;    
+    margin-top: 97vh;
+}
 .symbols {
     position: absolute;
 }
@@ -509,4 +515,10 @@ button:hover{
 #moshok {
     margin-top: 110vh;
     margin-left: 1.5vw;     
+}
+/* МО Андреевское */
+/* Деревни */
+#andreevo {
+    margin-top: 123vh;
+    margin-right: 3vw;     
 }
