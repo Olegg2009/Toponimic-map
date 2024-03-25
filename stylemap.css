@@ -59,6 +59,12 @@
     width: 30vw;    
     margin-top: 97vh;
 }
+.lavrovo_map{
+    vertical-align:middle; 
+    position: absolute;
+    width: 36vw;    
+    margin-top: 97vh;
+}
 .symbols {
     position: absolute;
 }
@@ -520,5 +526,11 @@ button:hover{
 /* Деревни */
 #andreevo {
     margin-top: 123vh;
+    margin-right: 3vw;     
+}
+/* МО Лавровское */
+/* Деревни */
+#lavrovo {
+    margin-top: 141vh;
     margin-right: 3vw;     
 }
