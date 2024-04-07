@@ -522,11 +522,146 @@ button:hover{
     margin-top: 110vh;
     margin-left: 1.5vw;     
 }
+#ozyablicy {
+    margin-top: 134vh;
+    margin-right: 12vw;         
+}
+#posimvorovskovo {
+    margin-top: 165vh;
+    margin-right: 17vw;         
+}
+#nikolskoe {
+    margin-top: 111vh;
+    margin-right: 34vw;             
+}
+#kondryaevo {
+    margin-top: 93vh;
+    margin-right: 28.5vw;    
+}
+#gladyshevo {
+    margin-top: 100vh;
+    margin-right: 16.5vw;        
+}
+#kolychevo {
+    margin-top: 132vh;
+    margin-left: 12vw;
+}
+#karevo {
+    margin-top: 139vh;
+    margin-left: 9vw;
+}
+#goryachevo {
+    margin-top: 137vh;
+    margin-left: 19vw;    
+}
+#krasniykust {
+    margin-top: 70vh;
+    margin-left: 12vw;            
+}
+#barkino{
+    margin-top: 76vh;
+    margin-left: 4vw;
+}
+#ignatyevo{
+    margin-top: 87vh;
+    margin-left: 10vw;
+}
+#pishalnikovo{
+    margin-top: 95vh;
+    margin-left: 11vw;
+}
+#pivovarovo {
+    margin-top: 121vh;
+    margin-left: 15vw;    
+}
+#gonobilovo {
+    margin-top: 105vh;
+    margin-left: 18vw;
+}
+#shustovo {
+    margin-top: 110vh;
+    margin-left: 25vw;    
+}
+#demuhino {
+    margin-top: 83vh;
+    margin-left: 21vw;        
+}
+#sinicino {
+    margin-top: 57vh;
+    margin-left: 21vw;    
+}
+#vezhki {
+    margin-top: 50vh;
+    margin-left: 19vw;    
+}
+#pavlovka {
+    margin-top: 50vh;
+    margin-left: 29vw;    
+}
+#radilovo {
+    margin-top: 29vh;
+    margin-left: 23vw;    
+}
+#mitino {
+    margin-top: 20vh;
+    margin-left: 23vw;    
+}
 /* МО Андреевское */
 /* Деревни */
 #andreevo {
     margin-top: 123vh;
-    margin-right: 3vw;     
+    margin-right: 2vw;     
+}
+#novaya {
+    margin-top: 162vh;
+}
+#mostishi{
+    margin-top: 179vh;
+    margin-left: 4vw;
+}
+#turmerovka{
+    margin-top: 135vh;
+    margin-right: 7vw;
+}
+#likino{
+    margin-top: 126vh;
+    margin-right: 12vw;
+}
+#brykino{
+    margin-top: 133vh;
+    margin-left: 7vw;
+}
+#bkozlovka{
+    margin-top: 120vh;
+    margin-right: 20vw;
+}
+#nepeycyno{
+    margin-top: 101vh;
+    margin-right: 17vw;    
+}
+#bolotskiy{
+    margin-top: 106vh;
+    margin-right: 6vw;
+}
+#yazikovo{
+    margin-top: 108vh;
+    margin-left: 8vw;    
+}
+#krasniybogatir{
+    margin-top: 86vh;
+    margin-right: 6vw;        
+}
+#vasilyevo {
+    margin-top: 67vh;
+    margin-right: 1vw;
+}
+#bahtino {
+    margin-top: 47vh;
+    margin-right: 17vw;    
+}
+#kartmazovo {
+    margin-top: 57vh;
+    margin-right: 10vw;        
 }
 /* МО Лавровское */
 /* Деревни */
