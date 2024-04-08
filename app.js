@@ -1,7 +1,6 @@
 let enable = false
 
 document.getElementsByClassName('symbols')[0].style.opacity = 0;
-
 function showit()
 {
     enable = !enable;
@@ -16,3 +15,19 @@ function showit()
         document.getElementsByClassName('symbols')[0].style.opacity = 0;
     }
 }
+if(window.innerWidth / window.innerHeight < 16/10)
+{
+    document.getElementById('caution').style.opacity = 1;
+}
+else {
+        document.getElementById('caution').style.opacity = 0;
+}
+window.addEventListener("resize", function() {
+    if(window.innerWidth / window.innerHeight < 16/10)
+{
+    document.getElementById('caution').style.opacity = 1;
+}
+else {
+        document.getElementById('caution').style.opacity = 0;
+}
+}, false);

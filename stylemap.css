@@ -1,6 +1,12 @@
 *{
     user-select: none;
 }
+@media screen and (orientation: landscape) { 
+    #logo { background: url(logo1.png) no-repeat; }
+  }
+  @media screen and (orientation: portrait) { 
+    #logo { background: url(logo2.png) no-repeat; }
+  }
 .map {
     animation: 500ms show ease;
 
@@ -68,7 +74,10 @@
 .symbols {
     position: absolute;
 }
-
+#caution{
+    position: absolute;
+    margin-top: 10vh;
+}
 #sym {
     width: 50vw;
     margin-top: 169vh;
@@ -668,4 +677,40 @@ button:hover{
 #lavrovo {
     margin-top: 141vh;
     margin-right: 3vw;     
+}
+#chamerevo {
+    margin-top: 72vh;
+    margin-right: 12vw;    
+}
+#luhtonovo {
+    margin-top: 98vh;
+    margin-right: 5vw;    
+}
+#bykovo {
+    margin-top: 115vh;
+    margin-right: 3vw;    
+}
+#dorofeevo {
+    margin-top: 104vh;
+    margin-left: 6vw;    
+}
+#myzino {
+    margin-top: 83vh;
+    margin-left: 6.5vw;    
+}
+#suhovka {
+    margin-top: 92vh;
+    margin-right: 18vw;    
+}
+#popelenki {
+    margin-top: 80vh;
+    margin-right: 6vw;    
+}
+#chamerevo {
+    margin-top: 72vh;
+    margin-right: 12vw;    
+}
+#natalyinka{
+    margin-top: 72vh;
+    margin-right: 27vw;    
 }
